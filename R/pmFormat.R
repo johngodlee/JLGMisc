@@ -10,7 +10,7 @@
 #'
 #' @return character string
 #' 
-pm_format <- function(x, y, dx = 2, dy = dx + 1, pm = "$\\pm$", paren = FALSE) {
+pmFormat <- function(x, y, dx = 2, dy = dx + 1, pm = "$\\pm$", paren = FALSE) {
   main <- numFormat(x, digits = dx)
   uncert <- numFormat(y, digits = dy)
 
