@@ -10,7 +10,3 @@ objSize <- function() {
   }), decreasing = TRUE)
 }
 
-function() {sort(sapply(ls(), function(x) format(object.size(get(x)), unit = 'auto')))}
-
-
-objSize()
