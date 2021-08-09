@@ -5,6 +5,10 @@
 #'
 #' @return vector of hline positions 
 #' 
+#' @examples
+#' xtableHline(5,4)
+#' xtableHline(3,c(4,3,2))
+#' 
 #' @export
 #' 
 xtableHline <- function(ngroup, nsize) {
@@ -28,4 +32,3 @@ xtableHline <- function(ngroup, nsize) {
 
   return(out)
 }
-
