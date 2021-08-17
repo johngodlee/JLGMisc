@@ -6,7 +6,7 @@
 #' 
 #' @export
 #' 
-lmPval <- function (x) {
+lmPval <- function(x) {
     if (class(x) != "lm") stop("Not an object of class 'lm' ")
     f <- summary(x)$fstatistic
     p <- pf(f[1],f[2],f[3],lower.tail=F)
