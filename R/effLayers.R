@@ -18,7 +18,7 @@
 #' 
 #' @examples 
 #' x <- rnorm(10000)
-#' enl(x)
+#' effLayers(x)
 #'
 #' @export
 #' 
@@ -26,7 +26,7 @@
 ## Assign to Z slices
 ## Count number of points within each slice
 ## Calculate shannon diversity index (entropy) on vertical layer occupancy
-enl <- function(x, binwidth) { 
+effLayers <- function(x, binwidth) { 
     binz <- cut(x, include.lowest = TRUE, labels = FALSE,
         breaks = seq(floor(min(x)), ceiling(max(x)), by = binwidth))
 
