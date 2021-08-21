@@ -1,11 +1,11 @@
 #' Qualitative colour palettes
-#'
 #' @return named list of qualitative colour palettes as vectors of hex-codes
 #' 
 #' @details The \code{color_brewer_*} palettes come from \url{https://colorbrewer2.org/}.
 #'     The \code{seaborn_*} palettes come from \url{https://seaborn.pydata.org/}.
 #'     The \code{carto_colors_*} palettes come from \url{https://carto.com/carto-colors/}.
 #'     The \code{solarized_accent} palette comes from \url{https://ethanschoonover.com/solarized/}.
+#'     The \code{coloropt_*} palettes come from \url{http://tsitsul.in/blog/coloropt/}.
 #'     Other palettes are original.
 #' 
 #' @examples
@@ -30,6 +30,12 @@ qualPal <- function() {
     carto_colors_pastel = c("#66C5CC", "#F6CF71", "#F89C74", "#DCB0F2", "#87C55F", "#9EB9F3", "#FE88B1", "#C9DB74", "#8BE0A4", "#B497E7", "#D3B484", "#B3B3B3"),
     carto_colors_prism = c("#5F4690", "#1D6996", "#38A6A5", "#0F8554", "#73AF48", "#EDAD08", "#E17C05", "#CC503E", "#94346E", "#6F4070", "#994E95", "#666666"),
     carto_colors_safe = c("#88CCEE", "#CC6677", "#DDCC77", "#117733", "#332288", "#AA4499", "#44AA99", "#999933", "#882255", "#661100", "#6699CC", "#888888"),
-    carto_colors_vivid = c("#E58606", "#5D69B1", "#52BCA3", "#99C945", "#CC61B0", "#24796C", "#DAA51B", "#2F8AC4", "#764E9F", "#ED645A", "#CC3A8E", "#A5AA99")
+    carto_colors_vivid = c("#E58606", "#5D69B1", "#52BCA3", "#99C945", "#CC61B0", "#24796C", "#DAA51B", "#2F8AC4", "#764E9F", "#ED645A", "#CC3A8E", "#A5AA99"),
+    coloropt_normal6 = c("#4053D3", "#DDB310", "#B51D14", "#00BEFF", "#FB49B0", "#00B25D", "#CACACA"),
+    coloropt_bright6 = c("#EFE645", "#E935A1", "#00E3FF", "#E1562C", "#537EFF", "#00CB85", "#EEEEEE"),
+    coloropt_dark6 = c("#005900", "#000078", "#490D00", "#8A034F", "#005A8A", "#443500", "#585858"),
+    coloropt_fancy6 = c("#56641A", "#C0AFFB", "#E6A176", "#00678A", "#984464", "#5ECCAB", "#CDCDCD"),
+    coloropt_tarnish6 = c("#274D52", "#C7A2A6", "#818B70", "#604E3C", "#8C9FB7", "#796880", "#C0C0C0"),
+    coloropt_normal12 = c("#EBAC23", "#B80058", "#008CF9", "#006E00", "#00BBAD", "#D163E6", "#B24502", "#FF9287", "#5954D6", "#00C6F8", "#878500", "#00A76C", "#BDBDBD")
   )
 }
