@@ -15,6 +15,7 @@
 #' 
 qualPal <- function() {
   list(
+    red_blue = c("#2166AC", "#B2182B"),
     movie_4 = c("#117733", "#b58900", "#855C75", "#ED645A"),
     highlighter = c("#bbdf20", "#20dfa3", "#4420df", "#df205c"),
     color_brewer_set1 = c("#e41a1c", "#377eb8", "#4daf4a", "#984ea3", "#ff7f00", "#ffff33", "#a65628", "#f781bf", "#999999"),
