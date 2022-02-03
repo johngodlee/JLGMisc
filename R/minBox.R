@@ -13,11 +13,11 @@
 #' min_box_list[[1]]
 #'
 #' min_box_sf <- do.call(rbind, lapply(min_box_list, function(x) {
-#'   pts_sf <- st_as_sf(as.data.frame(x$pts), coords = c("X", "Y"))
-#'   st_sf(geometry = st_convex_hull(st_union(pts_sf)), crs = st_crs(dat))
+#'   pts_sf <- sf::st_as_sf(as.data.frame(x$pts), coords = c("X", "Y"))
+#'   sf::st_sf(geometry = sf::st_convex_hull(sf::st_union(pts_sf)), crs = sf::st_crs(dat))
 #'   }))
-#' plot(st_geometry(dat), col = NA, border = "blue")
-#' plot(st_geometry(min_box_sf), col = NA, border = "red", add = TRUE)
+#' plot(sf::st_geometry(dat), col = NA, border = "blue")
+#' plot(sf::st_geometry(min_box_sf), col = NA, border = "red", add = TRUE)
 #' 
 #' @importFrom sf st_is st_coordinates
 #' 
@@ -26,7 +26,7 @@
 minBox <- function(x) {
   stopifnot(all(sf::st_is(x, c("POLYGON", "MULTIPOLYGON"))))
 
-  lapply(st_geometry(x), function(y) {
+  lapply(sf::st_geometry(x), function(y) {
     x_mat <- sf::st_coordinates(y)[,1:2]
     
     ## rotating calipers algorithm using the convex hull
