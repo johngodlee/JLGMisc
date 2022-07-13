@@ -17,6 +17,7 @@ The \code{color_brewer_*} palettes come from \url{https://colorbrewer2.org/}.
 The \code{seaborn_*} palettes come from \url{https://seaborn.pydata.org/}.
 The \code{carto_colors_*} palettes come from \url{https://carto.com/carto-colors/}.
 The \code{solarized_accent} palette comes from \url{https://ethanschoonover.com/solarized/}.
+The \code{coloropt_*} palettes come from \url{http://tsitsul.in/blog/coloropt/}.
 Other palettes are original.
 }
 \examples{

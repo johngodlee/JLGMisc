@@ -15,8 +15,6 @@ lmFormat(x, digits = 2, ...)
 }
 \value{
 character string
-
-
 }
 \description{
 Format beta coefficient of lm() model object for LaTeX text

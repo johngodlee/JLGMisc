@@ -7,9 +7,9 @@
 pFormat(
   p,
   lev = c(0.001, 0.01, 0.05),
-  round = TRUE,
-  digits = 2,
-  asterisks = FALSE
+  asterisks = FALSE,
+  ps = TRUE,
+  digits = NULL
 )
 }
 \arguments{
@@ -17,13 +17,12 @@ pFormat(
 
 \item{lev}{vector of threshold values}
 
-\item{round}{logical, if TRUE values not lower than any critical threshold
-are rounded to \code{n} decimal places}
-
-\item{digits}{number of decimal places to round p values to if not lower than
-any critical threshold}
-
 \item{asterisks, }{logical, alternatively return asterisks at thresholds}
+
+\item{ps, }{logical, if TRUE return}
+
+\item{digits}{optional, number of decimal places to round p values to if
+not lower than any critical threshold}
 }
 \value{
 character vector
@@ -34,4 +33,7 @@ Format p-values for use in LaTeX
 \examples{
 pFormat(0.03)
 pFormat(c(0.06,0.05,0.005))
+pFormat(0.02, ps = FALSE)
+pFormat(0.02, asterisks = TRUE)
+pFormat(0.55, digits = 1)
 }

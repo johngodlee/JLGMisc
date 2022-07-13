@@ -9,5 +9,5 @@
 #' @export
 #' 
 coeffVar <- function(x) {
-  sd(x) / mean(x) * 100,
+  sd(x) / mean(x) * 100
 }

@@ -9,7 +9,7 @@
 #' @examples
 #' mod <- lm(rnorm(50) ~ rnorm(50))
 #' lmFormat(mod)
-#' @return 
+#' @export 
 #' 
 lmFormat <- function(x, digits = 2, ...){
   paste0("F(", 

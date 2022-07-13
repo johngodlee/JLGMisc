@@ -1,8 +1,8 @@
-#' Convert Degrees, minutes, seconds to decimal degrees
+#' Convert degrees, minutes, seconds to decimal degrees
 #'
-#' @param degr degrees
-#' @param minu minutes
-#' @param seco seconds
+#' @param degr vector of degrees
+#' @param minu vector of minutes
+#' @param seco vector of seconds
 #' @param dire direction, e.g. N/S, E/W
 #'
 #' @return atomic vector of decimal degrees
@@ -23,4 +23,3 @@ dmsDeg <- function(degr, minu, seco, dire) {
   out <- ifelse(dire %in% c("W", "S"), -out, out)
   return(out)
 }
-
