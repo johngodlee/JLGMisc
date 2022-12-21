@@ -1,4 +1,4 @@
-#' Clean the working environment
+#' Remove all objects from working environment
 #' 
 #' @export
 #' 

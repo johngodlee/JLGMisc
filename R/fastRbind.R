@@ -4,6 +4,12 @@
 #'
 #' @return dataframe
 #' 
+#' @examples
+#' x <- list(
+#'   data.frame(x = seq(1, 5), y = seq(5, 9)),
+#'   data.frame(x = seq(10, 50), y = seq(50, 90)))
+#' fastRbind(x)
+#' 
 #' @export
 #' 
 fastRbind <- function(x) { 

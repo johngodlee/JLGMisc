@@ -3,6 +3,9 @@
 #' @param x vector of colour codes, either hex codes or string names
 #'
 #' @return Plot object
+#' 
+#' @examples
+#' palShow(c("#2166AC", "#B2182B"))
 #'
 #' @export
 #'

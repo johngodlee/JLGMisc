@@ -3,6 +3,12 @@
 #' @param ... any number of objects
 #'
 #' @return logical vector 
+#' 
+#' @examples
+#' x <- "test"
+#' objExist(x)
+#' objExist(x, y)
+#' 
 #' @export
 #' 
 objExist <- function(...) {

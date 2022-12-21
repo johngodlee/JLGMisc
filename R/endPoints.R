@@ -6,6 +6,7 @@
 #' @param d distance
 #'
 #' @return dataframe of coordinates for both endpoints
+#' 
 #' @export
 #' 
 endPoints <- function(x, y, m, d) {

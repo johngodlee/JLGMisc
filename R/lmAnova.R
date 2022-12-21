@@ -6,6 +6,7 @@
 #' 
 lmAnova <- function(mod_list) {
   list_name <- deparse(substitute(mod_list))
-  eval(parse(text=paste("anova(",paste(list_name, "[[",1:length(mod_list),"]]",sep="",collapse=","),")")))
+  eval(parse(text = paste("anova(", paste(list_name, "[[", seq_along(mod_list),
+          "]]", sep = "", collapse = ","), ")")))
 }
 

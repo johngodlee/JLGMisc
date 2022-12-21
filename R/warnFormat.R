@@ -4,8 +4,8 @@
 #' @param warn character string with warning, message or error
 #' @param type choose either "warning", "message" or "error" 
 #' @param n integer, number of items from x to return in warning
-#' @keywords internal
-#' @noRd
+#' 
+#' @export
 #' 
 warnFormat <- function(x, warn, type, n = 10, sep = ",") {
   if (length(x) == 0) {

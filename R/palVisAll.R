@@ -1,4 +1,4 @@
-#' Visualise all colours in qualPal 
+#' Visualise all colours in \code{qualPal()}
 #'
 #' @return Plot object
 #' 
