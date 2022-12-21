@@ -6,12 +6,14 @@
 #' 
 #' @examples
 #' hexTrip(c("#117733", "#b58900", "#855C75"))
+#' hexTrip("#fffffff")
+#' hexTrip("855C75")
 #' 
 #' @export
 #' 
 hexTrip <- function(x) {
   if (any(nchar(x) != 7) | any(!grepl("^#", x))) {
-    stop ("Hex code invalid")
+    stop ("Hex code(s) invalid")
   }
 
   unlist(lapply(x, function(y) {
