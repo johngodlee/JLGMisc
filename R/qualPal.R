@@ -6,6 +6,7 @@
 #'     The \code{carto_colors_*} palettes come from \url{https://carto.com/carto-colors/}.
 #'     The \code{solarized_accent} palette comes from \url{https://ethanschoonover.com/solarized/}.
 #'     The \code{coloropt_*} palettes come from \url{http://tsitsul.in/blog/coloropt/}.
+#'     \code{rainbow_12bit} comes from \url{https://iamkate.com/data/12-bit-rainbow/}.
 #'     Other palettes are original.
 #' 
 #' @examples
@@ -37,6 +38,7 @@ qualPal <- function() {
     coloropt_dark6 = c("#005900", "#000078", "#490D00", "#8A034F", "#005A8A", "#443500", "#585858"),
     coloropt_fancy6 = c("#56641A", "#C0AFFB", "#E6A176", "#00678A", "#984464", "#5ECCAB", "#CDCDCD"),
     coloropt_tarnish6 = c("#274D52", "#C7A2A6", "#818B70", "#604E3C", "#8C9FB7", "#796880", "#C0C0C0"),
-    coloropt_normal12 = c("#EBAC23", "#B80058", "#008CF9", "#006E00", "#00BBAD", "#D163E6", "#B24502", "#FF9287", "#5954D6", "#00C6F8", "#878500", "#00A76C", "#BDBDBD")
+    coloropt_normal12 = c("#EBAC23", "#B80058", "#008CF9", "#006E00", "#00BBAD", "#D163E6", "#B24502", "#FF9287", "#5954D6", "#00C6F8", "#878500", "#00A76C", "#BDBDBD"),
+    rainbow_12bit = c("#881177", "#aa3355", "#cc6666", "#ee9944", "#eedd00", "#99dd55", "#44dd88", "#22ccbb", "#00bbcc", "#0099cc", "#3366bb", "#663399")
   )
 }

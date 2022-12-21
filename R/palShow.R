@@ -1,18 +1,13 @@
 #' Show a colour palette as a plot
 #'
-#' @param x vector of colour codes, either hex codes or string identifiers
+#' @param x vector of colour codes, either hex codes or string names
 #'
 #' @return Plot object
 #'
 #' @export
 #'
-palShow <- function(x){
-  vec <- rep(1, times = length(x))
-
-  p <- barplot(vec, 
-    names.arg = x, 
-    axes = FALSE,
-    col = x)
-
-  return(p)
+palShow <- function(x) {
+  image(1:length(x), 1, as.matrix(1:length(x)), 
+    col = x, xlab = "", ylab = "", xaxt = "n", yaxt = "n", bty = "n")
 }
+
