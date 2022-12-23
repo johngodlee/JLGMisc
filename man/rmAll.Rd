@@ -2,10 +2,10 @@
 % Please edit documentation in R/rmAll.R
 \name{rmAll}
 \alias{rmAll}
-\title{Clean the working environment}
+\title{Remove all objects from working environment}
 \usage{
 rmAll()
 }
 \description{
-Clean the working environment
+Remove all objects from working environment
 }

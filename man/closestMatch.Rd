@@ -9,8 +9,8 @@ closestMatch(x, y)
 \arguments{
 \item{x}{numeric vector}
 
-\item{y}{vector of numeric values, each of which be matched with the closest
-value in \code{x}}
+\item{y}{vector of numeric values, each of which will be matched with the
+closest value in \code{x}}
 }
 \value{
 numeric vector of values of \code{x} that are closest to each
@@ -18,4 +18,10 @@ element of \code{y}
 }
 \description{
 Find closest match in a vector
+}
+\examples{
+x <- seq(1, 5, 0.3)
+y <- seq(0, 6, 0.25)
+closestMatch(x, y)
+
 }

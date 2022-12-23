@@ -2,7 +2,7 @@
 #'
 #' @param x vector of six digit hex colours
 #'
-#' @return 
+#' @return vector of nearest hex colour represented as a triplet
 #' 
 #' @examples
 #' hexTrip(c("#117733", "#b58900", "#855C75"))

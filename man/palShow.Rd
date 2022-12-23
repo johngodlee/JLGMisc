@@ -7,11 +7,15 @@
 palShow(x)
 }
 \arguments{
-\item{x}{vector of colour codes, either hex codes or string identifiers}
+\item{x}{vector of colour codes, either hex codes or string names}
 }
 \value{
 Plot object
 }
 \description{
 Show a colour palette as a plot
+}
+\examples{
+palShow(c("#2166AC", "#B2182B"))
+
 }

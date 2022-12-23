@@ -1,14 +1,14 @@
-#' Create a playfair-style cipher
+#' Create a playfair-style cipher from a character string
 #'
 #' @param x character string to encode
 #'
-#' @return list with three slots: (1) encoded message (2) decoder matrix 
+#' @return list with three elements: (1) encoded message (2) decoder matrix 
 #'     (3) decoder lookup table
 #'
 #' @details Creates a cipher based on the original playfair cipher. 
 #'     Unlike the original playfair cipher this method produces a 
 #'     6x6 grid of upper and lowercase letters. Additionally, the 
-#'     behaviour when a keypair appear on the same row or column of 
+#'     behaviour when a keypair appears on the same row or column of 
 #'     the decoder matrix is different. In this version keypairs which
 #'     appear on the same row or column are merely swapped rather than
 #'     transposed as in the original cipher. 

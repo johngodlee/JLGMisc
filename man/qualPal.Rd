@@ -18,6 +18,7 @@ The \code{seaborn_*} palettes come from \url{https://seaborn.pydata.org/}.
 The \code{carto_colors_*} palettes come from \url{https://carto.com/carto-colors/}.
 The \code{solarized_accent} palette comes from \url{https://ethanschoonover.com/solarized/}.
 The \code{coloropt_*} palettes come from \url{http://tsitsul.in/blog/coloropt/}.
+\code{rainbow_12bit} comes from \url{https://iamkate.com/data/12-bit-rainbow/}.
 Other palettes are original.
 }
 \examples{

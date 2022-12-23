@@ -15,3 +15,9 @@ logical vector
 \description{
 Check if an object exists using the object itself, rather than char string
 }
+\examples{
+x <- "test"
+objExist(x)
+objExist(x, y)
+
+}
