@@ -1,12 +1,13 @@
 #' Qualitative colour palettes
 #' @return named list of qualitative colour palettes as vectors of hex-codes
 #' 
-#' @details The \code{color_brewer_*} palettes come from \url{https://colorbrewer2.org/}.
-#'     The \code{seaborn_*} palettes come from \url{https://seaborn.pydata.org/}.
-#'     The \code{carto_colors_*} palettes come from \url{https://carto.com/carto-colors/}.
-#'     The \code{solarized_accent} palette comes from \url{https://ethanschoonover.com/solarized/}.
-#'     The \code{coloropt_*} palettes come from \url{http://tsitsul.in/blog/coloropt/}.
+#' @details \code{color_brewer_*} come from \url{https://colorbrewer2.org/}.
+#'     \code{seaborn_*} come from \url{https://seaborn.pydata.org/}.
+#'     \code{carto_colors_*} come from \url{https://carto.com/carto-colors/}.
+#'     \code{solarized_accent} comes from \url{https://ethanschoonover.com/solarized/}.
+#'     \code{coloropt_*} come from \url{http://tsitsul.in/blog/coloropt/}.
 #'     \code{rainbow_12bit} comes from \url{https://iamkate.com/data/12-bit-rainbow/}.
+#'     \code{oksolar} comes from \url{https://meat.io/oksolar}.
 #'     Other palettes are original.
 #' 
 #' @examples
@@ -27,6 +28,8 @@ qualPal <- function() {
     seaborn_colorblind = c("#0173B2", "#DE8F05", "#029E73", "#D55E00", "#CC78BC", "#CA9161", "#FBAFE4", "#949494", "#ECE133", "#58B4E9"),
     seaborn_deep = c("#4C72B0", "#DD8452", "#55A868", "#C44E52", "#8172B3", "#937860", "#DA8BC3", "#8C8C8C", "#CCB974", "#64B5CD"),
     solarized_accent = c("#b58900", "#cb4b16", "#dc322f", "#d33682", "#6c71c4", "#268bd2", "#2aa198", "#859900"),
+    oksolar = c("#ac8300", "#d56500", "#f23749", "#dd459d", "#7d80d1", "#2b90d8",
+      "#259d94", "#819500"),
     carto_colors_antique = c("#855C75", "#D9AF6B", "#AF6458", "#736F4C", "#526A83", "#625377", "#68855C", "#9C9C5E", "#A06177", "#8C785D", "#467378", "#7C7C7C"),
     carto_colors_bold = c("#7F3C8D", "#11A579", "#3969AC", "#F2B701", "#E73F74", "#80BA5A", "#E68310", "#008695", "#CF1C90", "#f97b72", "#4b4b8f", "#A5AA99"),
     carto_colors_pastel = c("#66C5CC", "#F6CF71", "#F89C74", "#DCB0F2", "#87C55F", "#9EB9F3", "#FE88B1", "#C9DB74", "#8BE0A4", "#B497E7", "#D3B484", "#B3B3B3"),
