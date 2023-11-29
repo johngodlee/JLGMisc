@@ -13,12 +13,13 @@ named list of qualitative colour palettes as vectors of hex-codes
 Qualitative colour palettes
 }
 \details{
-The \code{color_brewer_*} palettes come from \url{https://colorbrewer2.org/}.
-The \code{seaborn_*} palettes come from \url{https://seaborn.pydata.org/}.
-The \code{carto_colors_*} palettes come from \url{https://carto.com/carto-colors/}.
-The \code{solarized_accent} palette comes from \url{https://ethanschoonover.com/solarized/}.
-The \code{coloropt_*} palettes come from \url{http://tsitsul.in/blog/coloropt/}.
+\code{color_brewer_*} come from \url{https://colorbrewer2.org/}.
+\code{seaborn_*} come from \url{https://seaborn.pydata.org/}.
+\code{carto_colors_*} come from \url{https://carto.com/carto-colors/}.
+\code{solarized_accent} comes from \url{https://ethanschoonover.com/solarized/}.
+\code{coloropt_*} come from \url{http://tsitsul.in/blog/coloropt/}.
 \code{rainbow_12bit} comes from \url{https://iamkate.com/data/12-bit-rainbow/}.
+\code{oksolar} comes from \url{https://meat.io/oksolar}.
 Other palettes are original.
 }
 \examples{

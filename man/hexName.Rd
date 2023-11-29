@@ -22,6 +22,8 @@ Find the closest named colour to a given six character hex colour
 \details{
 If metric is "euclidean", distances are root sum-of-squares
 differences. "manhattan" distances are the sum of absolute differences.
+The named colours come from the list of 657 named colours stored in R,
+accessible using the \code{colors()} function.
 }
 \examples{
 hexName(c("#117733", "#b58900", "#855C75"))
