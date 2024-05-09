@@ -8,6 +8,8 @@
 #'     \code{coloropt_*} come from \url{http://tsitsul.in/blog/coloropt/}.
 #'     \code{rainbow_12bit} comes from \url{https://iamkate.com/data/12-bit-rainbow/}.
 #'     \code{oksolar} comes from \url{https://meat.io/oksolar}.
+#'     \code{xgfs} comes from \url{http://tsitsul.in/blog/coloropt/}.
+#'     \code{nightfly} comes from \url{https://github.com/bluz71/vim-nightfly-colors}.
 #'     Other palettes are original.
 #' 
 #' @examples
@@ -42,6 +44,14 @@ qualPal <- function() {
     coloropt_fancy6 = c("#56641A", "#C0AFFB", "#E6A176", "#00678A", "#984464", "#5ECCAB", "#CDCDCD"),
     coloropt_tarnish6 = c("#274D52", "#C7A2A6", "#818B70", "#604E3C", "#8C9FB7", "#796880", "#C0C0C0"),
     coloropt_normal12 = c("#EBAC23", "#B80058", "#008CF9", "#006E00", "#00BBAD", "#D163E6", "#B24502", "#FF9287", "#5954D6", "#00C6F8", "#878500", "#00A76C", "#BDBDBD"),
-    rainbow_12bit = c("#881177", "#aa3355", "#cc6666", "#ee9944", "#eedd00", "#99dd55", "#44dd88", "#22ccbb", "#00bbcc", "#0099cc", "#3366bb", "#663399")
+    rainbow_12bit = c("#881177", "#aa3355", "#cc6666", "#ee9944", "#eedd00", "#99dd55", "#44dd88", "#22ccbb", "#00bbcc", "#0099cc", "#3366bb", "#663399"),
+    xgfs_normal6 = c("#4053D3", "#DDB310", "#B51D14", "#00BEFF", "#FB49B0", "#00B25D", "#CACACA"),
+    xgfs_normal12 = c("#EBAC23", "#B80058", "#008CF9", "#006E00", "#00BBAD", "#D163E6", "#B24502", "#FF9287", "#5954D6", "#00C6F8", "#878500", "#00A76C", "#BDBDBD"),
+    xgfs_bright6 = c("#EFE645", "#E935A1", "#00E3FF", "#E1562C", "#537EFF", "#00CB85", "#EEEEEE"),
+    xgfs_dark6 = c("#005900", "#000078", "#490D00", "#8A034F", "#005A8A", "#443500", "#585858"),
+    xgfs_fancy6 = c("#56641A", "#C0AFFB", "#E6A176", "#00678A", "#984464", "#5ECCAB", "#CDCDCD"),
+    xgfs_tarnish6 = c("#274D52", "#C7A2A6", "#818B70", "#604E3C", "#8C9FB7", "#796880", "#C0C0C0"),
+    nightfly = c("#fc514e", "#a1cd5e", "#e3d18a", "#82aaff", "#c792ea", "#7fdbca", "#a1aab8"),
+    nightfly_bright = c("#7c8f8f", "#ff5874", "#21c7a8", "#ecc48d", "#82aaff", "#ae81ff", "#7fdbca", "#d6deeb")
   )
 }
