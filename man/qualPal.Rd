@@ -20,6 +20,8 @@ Qualitative colour palettes
 \code{coloropt_*} come from \url{http://tsitsul.in/blog/coloropt/}.
 \code{rainbow_12bit} comes from \url{https://iamkate.com/data/12-bit-rainbow/}.
 \code{oksolar} comes from \url{https://meat.io/oksolar}.
+\code{xgfs} comes from \url{http://tsitsul.in/blog/coloropt/}.
+\code{nightfly} comes from \url{https://github.com/bluz71/vim-nightfly-colors}.
 Other palettes are original.
 }
 \examples{
